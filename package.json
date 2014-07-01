@@ -8,10 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://mgrybyk@bitbucket.org/mgrybyk/supermarkets"
+    "url": "https://github.com/xlenz/myBoilerplate.git"
   },
   "author": "mgrybyk",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xlenz/myBoilerplate/issues"
+  },
+  "homepage": "https://github.com/xlenz/myBoilerplate",
   "dependencies": {
     "body-parser": "^1.4.3",
     "express": "^4.4.5",
