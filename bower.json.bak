@@ -1,0 +1,25 @@
+{
+  "name": "myBoilerplate",
+  "version": "0.0.1",
+  "authors": [
+    "mgrybyk <xlenz7@gmail.com>"
+  ],
+  "description": "SPA with left menu",
+  "main": "GruntFile.js",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.1",
+    "bootstrap": "~3.2.0",
+    "angular": "~1.2.18",
+    "angular-snap": "~1.5.1",
+    "angular-route": "~1.2.18"
+  }
+}

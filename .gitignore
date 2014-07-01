@@ -1,0 +1,5 @@
+node_modules
+bower_components
+logs
+app/libs
+.idea/workspace.xml
