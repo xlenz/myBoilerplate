@@ -61,13 +61,3 @@ html, body {
   right: 0;
   z-index: 1;
 }
-
-.snapjs-left .snap-drawer-right,
-.snapjs-right .snap-drawer-left {
-  display: none;
-}
-
-.snapjs-expand-left .snap-drawer-left,
-.snapjs-expand-right .snap-drawer-right {
-  width: 100%;
-}
