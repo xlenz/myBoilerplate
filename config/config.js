@@ -1,3 +1,5 @@
+'use strict';
+
 var pathToApp = 'app';
 
 module.exports = function () {
@@ -5,7 +7,8 @@ module.exports = function () {
         host: '',
         port: 81,
 
+        pathToApp: pathToApp,
         appHtml: pathToApp + '/app.html',
-        pathToApp: pathToApp
+        pageNotFound: pathToApp + '/404.html'
     };
-}
+};
