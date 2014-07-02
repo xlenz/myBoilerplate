@@ -10,14 +10,9 @@ module.exports = function (grunt) {
                 expand: true,
                 cwd: 'bower_components/',
                 src: [
-                    'angular/angular.min.{js,js.map}',
-                    'jquery/dist/jquery.min.*',
-                    'bootstrap/dist/*/bootstrap.min.{css,js}',
                     'bootstrap/dist/fonts/*.*',
-                    'outdated-browser/outdatedbrowser/outdatedBrowser.min.{css,js}',
-                    'angular-snap/angular-snap.min.{css,js}',
-                    'snapjs/snap.min.js',
-                    'angular-route/angular-route.min.{js,js.map}'
+                    '**/*.min.{css,js,js.map,map}',
+                    '!**/src/**'
                 ],
                 dest: pathToLibs
             }
