@@ -14,6 +14,7 @@ module.exports = function (grunt) {
                     'jquery/dist/jquery.min.*',
                     'bootstrap/dist/*/bootstrap.min.{css,js}',
                     'bootstrap/dist/fonts/*.*',
+                    'outdated-browser/outdatedbrowser/outdatedBrowser.min.{css,js}',
                     'angular-snap/angular-snap.min.{css,js}',
                     'snapjs/snap.min.js',
                     'angular-route/angular-route.min.{js,js.map}'

@@ -34,6 +34,8 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
     <meta name="apple-mobile-web-app-title" content="">
 
+    <link rel="stylesheet" href="libs/outdated-browser/outdatedbrowser/outdatedBrowser.min.css">
+
     <link rel="stylesheet" href="libs/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="libs/angular-snap/angular-snap.min.css"/>
     <link rel="stylesheet" href="css/demo.css"/>
@@ -43,6 +45,14 @@
 </head>
 
 <body class="container">
+<div id="outdated">
+    <h6>Your browser is out-of-date!</h6>
+
+    <p>Update your browser to view this website correctly. <a id="btnUpdateBrowser" href="http://outdatedbrowser.com/">Update
+        my browser now </a></p>
+
+    <p class="last"><a href="#" id="btnCloseUpdateBrowser" title="Close">&times;</a></p>
+</div>
 <div ng-controller="MainCtrl">
     <div id="toolbar" class="snap-content">
         <img snap-toggle src="images/menu-hamburger.svg">
@@ -74,6 +84,8 @@
 
 </div>
 <script src="libs/jquery/dist/jquery.min.js"></script>
+<script src="libs/outdated-browser/outdatedbrowser/outdatedBrowser.min.js"></script>
+<script src="outdated-browser.js"></script>
 <script src="libs/bootstrap/dist/js/bootstrap.min.js"></script>
 <script src="libs/snapjs/snap.min.js"></script>
 <script src="libs/angular/angular.min.js"></script>
